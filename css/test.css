@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+:root {
+    --mycolor: #007aff;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+.home {
+    background-image: url("../image/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.home .overlay {
+    background-color: rgba(0, 0, 0, .6);
+    height: 100vh;
+    width: 100%;
+
+}
+
+.home .overlay .head {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.home .overlay .caption p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 72px;
+    font-size: 60px;
+
+}
+
+.home .overlay .caption p #element {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 72px;
+    font-weight: 800;
+}
+
+.home .overlay p {
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.home .overlay .social-icon {
+    margin-top: 30px;
+}
+
+.home .overlay .social-icon span {
+    background-color: #1e1e1e91;
+
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.home .overlay .social-icon a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 3px;
+
+}
+
+.home .overlay .social-icon span i {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+
+    color: #fff;
+
+}
+
+nav ul li .item {
+    color: #fff;
+    font-size: 14px;
+
+    line-height: 20px;
+    font-weight: 400;
+
+
+}
+
+.navbar .collapse  a {
+    display: inline-block;
+    width: fit-content;
+    
+}
+.navbar .collapse .item {
+    position: relative;
+    padding: 5px 20px;
+}
+
+.navbar ul li a.active::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+
+}
+
+.navbar ul li .item:hover::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    background-color: #fff;
+    width: 50%;
+
+}
+
+nav {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+nav .logo {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 800;
+}
+
+#About .show .l-img::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url("../image/dots.png");
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+
+#About .show .left {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: #343434;
+}
+
+#About .show .sub-title {
+    font-size: 14px;
+    font-size: 400;
+    line-height: 20px;
+    color: #999999;
+}
+
+#About .show p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #748182;
+
+}
+
+#About .show p span {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #748182;
+}
+
+#About .show .skill .light {
+    margin: 30px 0;
+    height: 20px;
+}
+
+#About .show .click a {
+    padding: 10px 20px;
+    background-color: #040404;
+    color: #fff;
+    border: #fff;
+    border: black 2px solid;
+
+
+
+}
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--bs-progress-bar-bg);
+    transition: var(--bs-progress-bar-transition);
+    padding: 0 10px;
+} 
+
+
+#About .show .click .right {
+    background-color: transparent;
+    color: black;
+
+
+}
+
+#About .show .click .right:hover {
+    background-color: black;
+    color: #fff;
+
+
+}
+
+#About .show .click .download:hover {
+    background-color: transparent;
+    color: black;
+
+
+}
+
+#SERVICES .inner .my-icon {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    background: #eee;
+    transition: all .5s;
+
+
+}
+
+#SERVICES .inner .my-icon:hover {
+    color: #fff;
+    background-color: black;
+}
+
+#Portfolio .nav-pills {
+    width: fit-content;
+
+}
+
+.nav-pills .nav-link {
+    position: relative;
+    color: #222222;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    color: #222222;
+}
+
+.nav-pills .nav-link.active::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: 10px;
+    width: 70%;
+    height: 3px;
+    background-color: #0b0b0b;
+
+}
+
+#Portfolio .item {
+    position: relative;
+    overflow: hidden;
+}
+
+#Portfolio .item .layer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    inset: 0;
+    transition: .3s;
+    text-align: center;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+
+}
+
+#Portfolio .item:hover .layer {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+#Portfolio .item .layer .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .4;
+
+
+}
+
+#Portfolio .item:hover .content {
+    opacity: 1;
+
+}
+
+#Portfolio .item:hover .content h6 {
+    font-size: 12px;
+    line-height: 13px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#Portfolio .item:hover .content .icons .icon {
+    display: inline-block;
+    background-color: #0b0b0b;
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border: 2px solid transparent;
+}
+
+#Portfolio .item:hover .content .icons .icon i {
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+
+    display: inline-block;
+    margin: 0 7px;
+    cursor: pointer;
+
+
+}
+
+#Portfolio .item:hover .content .icons .icon:hover {
+    background-color: #fff;
+    border: 2px solid #040404;
+
+}
+
+#Portfolio .item:hover .content .icons .icon:hover i {
+    color: #040404;
+}
+
+/* #Testimonials .carousel-inner .carousel-item img{
+
+}  */
+#Testimonials .carousel-inner .carousel-item .carousel-caption {
+    position: static;
+    color: #040404;
+}
+
+#Testimonials .carousel-inner .carousel-item .carousel-caption p {
+    color: #748182;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+#Testimonials .carousel-inner .carousel-item .carousel-caption h6 {
+    color: #343434;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+
+}
+
+#Testimonials .carousel-inner .carousel-item .carousel-caption span {
+    color: #888888;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 600;
+
+}
+
+#Testimonials .carousel-indicators {
+
+    position: static;
+}
+
+#Testimonials .carousel-indicators button {
+    background-color: #999999;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+}
+
+.count .number .icon i {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.count .number h3 {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.count .number p {
+    line-height: 24px;
+    font-size: 15px;
+    color: #748182;
+    font-weight: 600;
+}
+
+
+#Team .job .social {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    transition: all .7s;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+
+}
+
+#Team .job:hover .social {
+    background: rgba(255, 255, 255, 0.95);
+    transform: rotateY(180deg);
+
+
+}
+
+#Team .job .social ul {
+    list-style: none;
+    opacity: 0;
+}
+
+#Team .job .social ul li {
+    background-color: #040404;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    transition: .7s;
+    margin: 7px;
+    border: 2px solid transparent;
+}
+
+#Team .job .social ul li i {
+    font-size: 17px;
+    color: #fff;
+
+
+}
+
+#Team .job .social ul li:hover {
+    background-color: #fff;
+    border: 2px solid #040404;
+
+}
+
+#Team .job .social ul li:hover i {
+    color: #040404;
+}
+
+#Team .job:hover ul {
+    opacity: 1;
+    transform: rotateY(0);
+    transform: rotateY(180deg);
+
+}
+
+#Team .job .img-text {
+    background-color: #343434;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+#Team .job .img-text h4 {
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+
+}
+
+#Team .job .img-text h5 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+
+}
+
+#contact .item .icon {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    color: #040404;
+    font-size: 25px;
+
+    background: #eee;
+    transition: all .5s;
+}
+
+#contact .item .icon:hover {
+    background-color: #040404;
+    color: #fff;
+}
+
+#contact .item h6 {
+    font-weight: 700;
+    color: #343434;
+}
+
+#contact .item p {
+    color: #748182;
+    line-height: 24px;
+}
+
+#contact .type input {
+    background: #f4f4f4;
+
+}
+
+#contact .area textarea {
+    background: #f4f4f4;
+
+}
+
+#contact .button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #040404;
+    padding: 10px 25px;
+    transition: .4s;
+}
+
+#contact .button a:hover {
+    color: #040404;
+    background-color: #fff;
+    border: 2px solid #040404;
+}
